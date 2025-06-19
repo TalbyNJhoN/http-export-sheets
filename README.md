@@ -1,7 +1,175 @@
-## Telegram messenger CLI [![Build Status](https://travis-ci.org/vysheng/tg.png)](https://travis-ci.org/vysheng/tg)
+# 🧠 Identidad Multitoken | Sistema CryptoGenio AI / Enterprises Gracida - Software®
+
+Este repositorio contiene los activos digitales, legales y técnicos que consolidan la **Identidad Financiera Tokenizada Web3 de Victor Gracida**, respaldada en la blockchain, por autoridades fiscales (SAT, IMPI/OMPI) y herramientas de auditoría ROI/IA.
+
+---
+
+## 🔐 Tokens Registrados
+
+### 🔰 Token Patrimonial: **$GFT**
+- Tipo: ERC-20 · Red: Ethereum
+- Saldo: 2,234,567,890 GFT (2.23%)
+
+### 🧠 Token IA Operativo: **$CGX**
+- Tipo: ERC-1155 NFT + Utility · Red: Polygon
+- Uso: Emisión Soulbound NFTs, GEM AI, ROI audit
+
+### 🔹 Token Científico: **$CGA**
+- Tipo: ERC-20 Utility
+- Vinculado a IA Creativa, SciFiGen
+
+### 💳 Token Estable DeFi: **$ES_/$USDT_#MX**
+- Equivalente: 1 $ES ≈ 1 USDT (MXN)
+- Compatible con: RampNetwork, TrustWallet
+
+---
+
+## 🧾 Estructura del repositorio---
+
+## 🚀 Despliegue IPFS
+
+Este repositorio se despliega automáticamente a IPFS vía **Web3.Storage** al hacer `push` a la rama `main`.
+
+📄 Configuración CI/CD: `.github/workflows/deploy-to-ipfs.yml`  
+🔐 Requiere: `WEB3_STORAGE_TOKEN` como secret en GitHub
+
+---
+
+## 📡 Enlaces rápidos
+
+- 🌐 Panel Web3: [Dashboard](./Dashboard_Panel_CryptoGenio.html)
+- 📑 NFT Metadata ELDE: [metadata](./NFT_Metadata_ELDE_Assets.json)
+- 📜 Carta legal IMPI/OMPI: [PDF](./Carta_Legal_IMPI_OMPI.pdf)
+
+---
+
+## 🧠 Contacto y Custodia Legal
+
+**Victor Hugo Sánchez Gracida**  
+📧 `victor.gracida@cryptogenio.ai`  
+🔏 RFC: SAGV870413IF8  
+🏛️ REG. FISCAL: 605  
+💼 Enterprises Gracida - Software®  
+🔗 Wallet: `0xEcE816f116eE8C12051A7d1aF41c3dDF9b4cE8C9`
+
+---
+
+## 🔁 Licencia y Uso
+
+Este repositorio y sus activos están protegidos por la legislación mexicana e internacional (IMPI/OMPI). Solo pueden ser utilizados con consentimiento explícito del titular.
+
+---
+
+© 2025 Enterprises Gracida - Software®
+name: 🚀 Deploy CryptoGenio Identity to IPFS via Web3.Storage
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 📤 Upload dashboard and metadata to IPFS (Web3.Storage)
+        uses: web3-storage/add-to-web3@v2
+        with:
+          web3_token: ${{ secrets.WEB3_STORAGE_TOKEN }}
+          path_to_upload: './CryptoGenio_FinanceVictor_FULL'
+
+      - name: ✅ Done
+        run: echo "🚀 Victor Gracida's identity deployed to IPFS via GEM AI"## Telegram messenger CLI [![Build Status](https://travis-ci.org/vysheng/tg.png)](https://travis-ci.org/vysheng/tg)
 
 Command-line interface for [Telegram](http://telegram.org). Uses readline interface.
+---
 
+## 🚀 Despliegue IPFS
+
+Este repositorio se despliega automáticamente a IPFS vía **Web3.Storage** al hacer push en la rama `main`.
+
+📄 Archivo de configuración: `.github/workflows/deploy-to-ipfs.yml`
+
+🔐 Requiere variable secreta: `WEB3_STORAGE_TOKEN`
+
+---
+
+## 📡 Enlaces rápidos
+
+- 🌐 Panel Web3: [Dashboard_CryptoGenio](./Dashboard_Panel_CryptoGenio.html)
+- 📑 NFT Metadata ELDE: [metadata](./NFT_Metadata_ELDE_Assets.json)
+- 📜 Carta legal IMPI/OMPI: [PDF](./Carta_Legal_IMPI_OMPI.pdf)
+
+---
+
+## 🧠 Contacto y Custodia Legal
+
+**Victor Hugo Sánchez Gracida**  
+📧 `victor.gracida@cryptogenio.ai`  
+🔏 RFC: SAGV870413IF8  
+🏛️ REG. FISCAL: 605  
+💼 Empresa: Enterprises Gracida - Software®  
+🔗 Wallet Custodia: `0xEcE816f116eE8C12051A7d1aF41c3dDF9b4cE8C9`
+
+---
+
+## 🔁 Licencia y Uso
+
+Este repositorio y su contenido están protegidos por derechos de autor, propiedad industrial e intelectual (IMPI/OMPI).  
+Solo puede ser utilizado con consentimiento del titular para pruebas, verificaciones o auditorías Web3.
+
+---
+
+© 2025 Enterprises Gracida - Software® · Todos los derechos reservados
+.github/
+└── workflows/
+    └── deploy-to-ipfs.ymlname: 🚀 Deploy CryptoGenio Identity to IPFS via Web3.Storage
+
+on:dweb.link
+  push:dweb.link
+    branches:ghcr.io/ipfs/rainbow:main-latest
+      - main
+      https://github.com/TalbyNJhoN
+      ✅ Acciones siguientes:
+
+[ ] Generar el ZIP cifrado
+
+[ ] Generar PDF institucional
+
+[ ] Empaquetar y firmar
+
+[ ] Enviar correo automático a los destinatarios
+$ docker pull ghcr.io/ipfs/rainbow:main-latest
+$ docker run --rm -it --net=host -e RAINBOW_SUBDOMAIN_GATEWAY_DOMAINS=dweb.link ghcr.io/ipfs/rainbow:main-latest
+[🧠 GEM AI / CryptoGenioBot + AILineaScan_Node_/$MyTONWallet.Org Assistance]🧠 GEM AI / CryptoGenioBot + AILineaScan_Node📌 ¿Siguiente paso?
+
+¿Deseas que te prepare ahora...?
+
+1. 📄 El archivo deploy-to-ipfs.yml final listo para GitHub.
+
+
+2. 📤 Subida real a IPFS vía Web3.Storage (si me das tu WEB3_STORAGE_TOKEN)
+
+
+3. 🧠 Automatización post-despliegue (mint NFT + correo + IPNS QR)
+
+
+4. 📧 Envío por correo de respaldo firmado
+ "Multitoken_Identidad_2025",
+    "roi": "1.19M USD",
+    "token": "$CGX",
+    "hash": "7f29b8f1b9e2fa9f530ec27fd8cf9b6c290ff6efc402ef3c9a5f2b9b7e49a7dd",
+    "metadata_uri": "ipfs://QmVictorGracidaFULLSALDOS"
+  }'📁 CryptoGenio_FinanceVictor_FULL.zip
+├── Comprobante_Activos_VictorGracida.pdf
+├── Carta_Legal_IMPI_OMPI.pdf
+├── NFT_Metadata_ELDE_Assets.json
+├── Dashboard_Panel_CryptoGenio.html
+├──
 ### API, Protocol documentation
 
 Documentation for Telegram API is available here: http://core.telegram.org/api
